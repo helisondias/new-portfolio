@@ -7,7 +7,7 @@ import resume from "../img/Helison-cv.pdf";
 const Sidebar = () => {
   return (
     <aside id="sidebar">
-      <img src={Avatar} alt="Helison Dias" />
+      <img src={Avatar} alt="Helison Dias" className="img"/>
       <p className="title">Desenvolvedor Junior</p>
       <SocialNetworks />
       <InformationContainer />

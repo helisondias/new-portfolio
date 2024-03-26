@@ -4,19 +4,21 @@
 #information
   @include mixins.center
   flex-direction: column
-  background-color: variables.$bg-color-secondary
+  background-color: transparent
   padding: 1rem
+  padding-bottom: 0rem
   margin-bottom: 2rem
   text-align: left
   width: 80%
   border-radius: variables.$card-border-radius
 
+
   .info-card
     @include mixins.center
     justify-content: start
     gap: 1rem
-    padding-bottom: .8rem
-    margin-bottom: .8rem
+    padding-bottom: 1rem
+    margin-bottom: 1rem
     border-bottom: 1px solid #444
     width: 100%
 
@@ -28,11 +30,9 @@
       color: variables.$text-color
       font-weight: bold
     svg
-      background-color: red
+      background-color: transparent
       padding: .4rem
       width: 2rem
       height: 2rem
       border-radius: variables.$card-border-radius
-
-   
-
+      color: #ac1e1e
