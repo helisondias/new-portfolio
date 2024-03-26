@@ -8,9 +8,7 @@ const ProjectsContainer = () => {
         accusamus ducimus consequuntur at dolores deserunt officiis impedit,
         earum delectus?
       </p>
-      <a href="#" className="btn">
-        Ver Projetos
-      </a>
+      
     </section>
   );
 };
