@@ -1,3 +1,10 @@
+import Avatar0 from "../img/automacao_email.png";
+import Avatar1 from "../img/flappy_bird.png";
+import Avatar2 from "../img/narutojump.png";
+import Avatar3 from "../img/ping_pong.png";
+import Avatar4 from "../img/pokedex.png";
+import Avatar5 from "../img/projeto-site.png";
+
 const ProjectsContainer = () => {
   return (
     <section className="projects-container">
@@ -6,7 +13,7 @@ const ProjectsContainer = () => {
         <div>
           <p>FILMOGRAFIA</p>
           <img
-            src="src\img\projeto-site.PNG"
+            src={Avatar5}
             alt="imagem do projeto filmografia"
             className="projects-img"
           />
@@ -27,7 +34,7 @@ const ProjectsContainer = () => {
         <div>
           <p>FLAPPY BIRDS </p>
           <img
-            src="src\img\flappy_bird.PNG"
+            src={Avatar1}
             alt="imagem do projeto flappy birds"
             className="projects-img"
           />
@@ -46,7 +53,7 @@ const ProjectsContainer = () => {
         <div>
           <p>AUTOMAÇÃO DE EMAIL</p>
           <img
-            src="src\img\automacao_email.PNG"
+            src={Avatar0}
             alt="imagem do projeto automação de projetos"
             className="projects-img"
           />
@@ -67,7 +74,7 @@ const ProjectsContainer = () => {
         <div>
           <p>PING PONG </p>
           <img
-            src="src\img\ping_pong.PNG"
+            src={Avatar3}
             alt="imagem do projeto pingpong"
             className="projects-img"
           />
@@ -87,7 +94,7 @@ const ProjectsContainer = () => {
         <div>
           <p>NARUTO JUMP</p>
           <img
-            src="src\img\narutojump.PNG"
+            src={Avatar2}
             alt="imagem do projeto naruto jump"
             className="projects-img"
           />
@@ -108,29 +115,7 @@ const ProjectsContainer = () => {
         <div>
           <p>POKEDEX</p>
           <img
-            src="src\img\pokedex.PNG"
-            alt="imagem do projeto pokedex"
-            className="projects-img"
-          />
-          <p className="projects-detail">
-            Meu segundo projeto feito em js, a famosa POKEDEX, utilizei a api
-            POKEAPI para puxar dados dos pokemons e lista-los na pokedex. O site
-            é dinamico e voce pode buscar por mais pokemons até um numero de 150
-            pokemons, trazendo informações de 10 em 10. é dinâmico
-          </p>
-
-          <a
-            href="https://pokedex-rouge-beta.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ver projeto
-          </a>
-        </div>
-        <div>
-          <p>POKEDEX</p>
-          <img
-            src="src\img\pokedex.PNG"
+            src={Avatar4}
             alt="imagem do projeto pokedex"
             className="projects-img"
           />
