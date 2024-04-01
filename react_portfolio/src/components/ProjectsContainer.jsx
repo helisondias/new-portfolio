@@ -1,9 +1,4 @@
-import Avatar0 from "../img/automacao_email.png";
-import Avatar1 from "../img/flappy_bird.png";
-import Avatar2 from "../img/narutojump.png";
-import Avatar3 from "../img/ping_pong.png";
-import Avatar4 from "../img/pokedex.png";
-import Avatar5 from "../img/projeto-site.png";
+import Avatar from "../img/eu.png";
 
 const ProjectsContainer = () => {
   return (
@@ -13,7 +8,7 @@ const ProjectsContainer = () => {
         <div>
           <p>FILMOGRAFIA</p>
           <img
-            src={Avatar5}
+            src={Avatar}
             alt="imagem do projeto filmografia"
             className="projects-img"
           />
@@ -34,7 +29,7 @@ const ProjectsContainer = () => {
         <div>
           <p>FLAPPY BIRDS </p>
           <img
-            src={Avatar1}
+            src={Avatar}
             alt="imagem do projeto flappy birds"
             className="projects-img"
           />
@@ -53,7 +48,7 @@ const ProjectsContainer = () => {
         <div>
           <p>AUTOMAÇÃO DE EMAIL</p>
           <img
-            src={Avatar0}
+            src={Avatar}
             alt="imagem do projeto automação de projetos"
             className="projects-img"
           />
@@ -74,7 +69,7 @@ const ProjectsContainer = () => {
         <div>
           <p>PING PONG </p>
           <img
-            src={Avatar3}
+            src={Avatar}
             alt="imagem do projeto pingpong"
             className="projects-img"
           />
@@ -94,7 +89,7 @@ const ProjectsContainer = () => {
         <div>
           <p>NARUTO JUMP</p>
           <img
-            src={Avatar2}
+            src={Avatar}
             alt="imagem do projeto naruto jump"
             className="projects-img"
           />
@@ -115,7 +110,7 @@ const ProjectsContainer = () => {
         <div>
           <p>POKEDEX</p>
           <img
-            src={Avatar4}
+            src={Avatar}
             alt="imagem do projeto pokedex"
             className="projects-img"
           />
