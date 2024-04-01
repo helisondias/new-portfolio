@@ -1,7 +1,6 @@
 import Projetosite from "../img/projetosite.png";
 import Automacao from "../img/automacao.png";
 import Flappy from "../img/flappybird.png";
-import Narutojump from "../img/narutojump.png";
 import Pingpong from "../img/pingpong.png";
 import Pokedex from "../img/pokedex.png";
 
@@ -94,7 +93,7 @@ const ProjectsContainer = () => {
         <div>
           <p>NARUTO JUMP</p>
           <img
-            src={Narutojump}
+            src={Pokedex}
             alt="imagem do projeto naruto jump"
             className="projects-img"
           />
