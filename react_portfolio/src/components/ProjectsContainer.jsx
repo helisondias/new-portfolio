@@ -1,9 +1,9 @@
 import Projetosite from "../img/projetosite.png";
 import Automacao from "../img/automacao.png";
 import Flappy from "../img/flappybird.png";
-import Narutojump from "../img/narutojump.png";
+import Narutojump from "../img/naruto.png";
 import Pingpong from "../img/pingpong.png";
-import Pokedex from "../img/pokedex.png";
+import Pokedex from "../img/poke.png";
 
 const ProjectsContainer = () => {
   return (
