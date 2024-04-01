@@ -1,6 +1,7 @@
 import Projetosite from "../img/projetosite.png";
 import Automacao from "../img/automacao.png";
 import Flappy from "../img/flappybird.png";
+import Narutojump from "../img/narutojump.png";
 import Pingpong from "../img/pingpong.png";
 import Pokedex from "../img/pokedex.png";
 
@@ -90,7 +91,27 @@ const ProjectsContainer = () => {
             Ver projeto
           </a>
         </div>
+        <div>
+          <p>NARUTO JUMP</p>
+          <img
+            src={Narutojump}
+            alt="imagem do projeto naruto jump"
+            className="projects-img"
+          />
+          <p className="projects-detail">
+            Meu quarto projeto feito em python, um jogo interativo chamado
+            NARUTO JUMP, utilizei a biblioteca PYGAME novamente. O jogo foi
+            baseado no jogo JUMP FOREVER mas com algumas adaptações
+          </p>
 
+          <a
+            href="https://github.com/helisondias/NarutoJump"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver projeto
+          </a>
+        </div>
         <div>
           <p>POKEDEX</p>
           <img
