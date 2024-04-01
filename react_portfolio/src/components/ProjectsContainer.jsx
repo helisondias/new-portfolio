@@ -1,4 +1,4 @@
-import Avatar from "../img/eu.png";
+import Avatar from "../img/automacao.png";
 
 const ProjectsContainer = () => {
   return (
