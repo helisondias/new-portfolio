@@ -3,11 +3,9 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam eum quia
-        natus tempore, fuga ipsa dolorem consequuntur incidunt, unde a ratione
-        libero distinctio consectetur illo autem laborum magni odio explicabo.
+        Seja bem vindo(a) ao meu portfólio, aqui voce poderá conferir meus
+        projetos, acessar meu currículo virtual e também baixa-ló em pdf. Para entrar em contato comigo acesse minhas redes sociais nos botões a esquerda.
       </p>
-      
     </section>
   );
 };
