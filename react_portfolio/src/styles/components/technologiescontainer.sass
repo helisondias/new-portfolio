@@ -14,7 +14,6 @@
       gap: 1rem
       padding: 1rem
       border: 1px solid #333
-      width: 45%
       border-radius: variables.$container-border-radius
       justify-content: space-around
 
@@ -47,3 +46,18 @@
     #react
       svg
         color: #ac1e1e
+
+  $small: 768px
+  $large: 1024px
+
+  @media screen and (max-width: $small)
+    .technology-card
+      width: 70vw
+      h3
+        font-size: .6rem
+        svg
+          width: 3rem
+
+  @media (min-width: $small ) and (max-with: $large)
+    .technology-card
+      background-color: red

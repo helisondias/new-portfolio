@@ -4,7 +4,7 @@ const AboutContainer = () => {
       <h2>Sobre</h2>
       <p>
         Seja bem vindo(a) ao meu portfólio, aqui voce poderá conferir meus
-        projetos, acessar meu currículo virtual e também baixa-ló em pdf. Para entrar em contato comigo acesse minhas redes sociais nos botões a esquerda.
+        projetos, acessar meu currículo virtual e também baixá-lo em pdf.
       </p>
     </section>
   );

@@ -1,0 +1,34 @@
+@use '../mixins'
+
+.projects-layout
+  text-align: center
+  img
+    width: 40vw
+
+  $small: 768px
+  $large: 1024px
+
+  @media screen and (max-width: $small)
+    img
+      width: 75vw
+
+  p
+    padding-top: 2rem
+
+  a
+    text-decoration: none
+    background-color: red
+    font-weight: bold
+    color: white
+    padding: .7rem
+    border-radius: 30%
+    font-size: 15px
+
+.projects-detail
+  padding: 2rem
+  font-size: .8rem
+  font-weight: bold
+
+.projects-unitary
+  padding: .2rem
+  padding-bottom: 2rem

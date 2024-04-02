@@ -3,7 +3,7 @@
 #portfolio
   display: flex
   flex-wrap: wrap
-  padding: 3rem
+  padding: 1rem
   gap: 3rem
 
   h1
@@ -17,3 +17,10 @@
     border-top: none
     border-left: none
     border-right: none
+
+  $small: 768px
+  $large: 1024px
+
+  @media screen and (max-width: $small)
+    h1
+      font-size: 3rem

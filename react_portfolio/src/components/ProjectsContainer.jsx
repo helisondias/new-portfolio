@@ -4,13 +4,14 @@ import Flappy from "../img/flappybird.png";
 import Narutojump from "../img/naruto.png";
 import Pingpong from "../img/pingpong.png";
 import Pokedex from "../img/poke.png";
+import "../styles/components/projectscontainer.sass";
 
 const ProjectsContainer = () => {
   return (
     <section className="projects-container">
       <h2>Projetos</h2>
       <div className="projects-layout">
-        <div>
+        <div className="projects-unitary">
           <p>FILMOGRAFIA</p>
           <img
             src={Projetosite}
