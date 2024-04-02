@@ -32,7 +32,7 @@ const ProjectsContainer = () => {
             Ver projeto
           </a>
         </div>
-        <div>
+        <div className="projects-unitary">
           <p>FLAPPY BIRDS </p>
           <img
             src={Flappy}
@@ -51,7 +51,7 @@ const ProjectsContainer = () => {
             Ver projeto
           </a>
         </div>
-        <div>
+        <div className="projects-unitary">
           <p>AUTOMAÇÃO DE EMAIL</p>
           <img
             src={Automacao}
@@ -72,7 +72,7 @@ const ProjectsContainer = () => {
             Ver projeto
           </a>
         </div>
-        <div>
+        <div className="projects-unitary">
           <p>PING PONG </p>
           <img
             src={Pingpong}
@@ -92,7 +92,7 @@ const ProjectsContainer = () => {
             Ver projeto
           </a>
         </div>
-        <div>
+        <div className="projects-unitary">
           <p>NARUTO JUMP</p>
           <img
             src={Narutojump}
@@ -113,7 +113,7 @@ const ProjectsContainer = () => {
             Ver projeto
           </a>
         </div>
-        <div>
+        <div className="projects-unitary">
           <p>POKEDEX</p>
           <img
             src={Pokedex}
