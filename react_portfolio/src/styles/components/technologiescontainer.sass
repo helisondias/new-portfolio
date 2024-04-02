@@ -47,8 +47,9 @@
       svg
         color: #ac1e1e
 
-  $small: 768px
+  $small: 769px
   $large: 1024px
+  $largest: 1400px
 
   @media screen and (max-width: $small)
     .technology-card
@@ -58,6 +59,14 @@
         svg
           width: 3rem
 
-  @media (min-width: $small ) and (max-with: $large)
+  @media (min-width: $small) and (max-width: $large)
     .technology-card
-      background-color: red
+      width: 70vw
+
+  @media screen and (min-width: $large)
+    .technology-card
+      width: 30vw
+
+  @media (min-width: $large) and (max-width: $largest)
+    .technology-card
+      width: 60vw
