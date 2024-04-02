@@ -49,24 +49,26 @@
 
   $small: 769px
   $large: 1024px
-  $largest: 1400px
+  $largest: 1310px
 
   @media screen and (max-width: $small)
-    .technology-card
+    .technology-card 
       width: 85vw
-      h3
-        font-size: .6rem
-        svg
-          width: 3rem
+      svg
+        width: 3rem
 
   @media (min-width: $small) and (max-width: $large)
     .technology-card
-      width: 70vw
-
+      width: 85vw
+      svg
+        width: 4rem
   @media screen and (min-width: $large)
     .technology-card
-      width: 30vw
-
-  @media (min-width: $large) and (max-width: $largest)
+      width: 85vw
+      svg
+        width: 5rem
+  @media screen and (min-width: $largest)
     .technology-card
-      width: 60vw
+      width: 48%
+      svg
+        width: 6rem
